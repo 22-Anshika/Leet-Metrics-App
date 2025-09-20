@@ -1,0 +1,101 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: "Orbitron", sans-serif;
+       font-optical-sizing: auto;
+            
+}
+
+body{
+       background-color: rgb(44, 44, 46);
+       color: rgb(107, 218, 63);
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-weight: 600;
+}
+
+.container{
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+       background-color: rgba(81, 88, 85, 0.592);
+       padding: 2rem;
+       border-radius: 0.7rem;
+       width: 45%;
+}
+
+h1{
+       font-size: 2.7rem;
+}
+
+
+.user-container{
+       display: flex;
+       flex-direction: column;
+       gap: 0.5rem;
+       justify-content: start;
+}
+
+.user-input-container{
+       display: flex;
+       gap: 2rem;
+}
+
+#user-input{
+       width: 70%;
+       padding: 0.3rem;
+}
+
+#search-btn{
+       padding: 0.3rem;
+       border-radius: 0.2rem;
+}
+
+.circle{
+       width: 9rem;
+       height: 9rem;
+       border-radius: 50%;
+       border: 0.27rem solid rgb(45, 150, 45);
+       position: relative;
+       color: chartreuse;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       font-size: 0.95rem;
+       background: conic-gradient(rgb(45, 150, 45) var(--progress-degree, 0%), rgb(49, 74, 49) 0%);
+}
+
+.progress{
+       display: flex;
+       gap: 1.1rem;
+       flex-wrap: wrap;
+}
+
+.stats-cards{
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+       display: flex;
+       flex-wrap: wrap;
+       gap: 10px;
+       justify-content: space-evenly;
+   }
+   
+   h4{
+       font-size: 1rem;
+   }
+   
+   .card{
+       background-color: rgb(57, 163, 57);
+       color: rgb(216, 221, 212);;
+       width: 40%;
+       max-width: 290px;
+       padding: 10px;
+       border-radius: 10px;
+       font-size: 1rem;
+       min-height: 4rem;
+   }
+

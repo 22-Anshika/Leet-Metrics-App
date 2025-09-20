@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>LeetMetrics App</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+15&family=Nabla&family=Orbitron:wght@400..900&family=Roboto&family=Wallpoet&display=swap" rel="stylesheet">   
+</head>
+<body>
+       <div class="container">
+
+              <h1>LeetMetric</h1>
+
+
+              <div class="user-container">
+                     <p>Enter your username below:</p>
+                     <div class="user-input-container">
+                            <input type="text" placeholder="enter your username here" id="user-input">
+                            <button id="search-btn">Search</button>
+                     </div>
+              </div>
+              
+              
+              <div class="stats-container">
+                     <div class="progress">
+                            <div class="progress-item">
+                                   <div class="easy-progress circle">
+                                          <span id="easy-label"></span>
+                                          <p>Easy</p>
+                                   </div>
+                            </div>
+                            <div class="progress-item">
+                                   <div class="medium-progress circle">
+                                          <span id="medium-label"></span>
+                                         <p>Medium</p>
+                                   </div>
+                            </div>
+                            <div class="progress-item">
+                                   <div class="hard-progress circle">
+                                          <span id="hard-label"></span>
+                                          <p>Hard</p>
+                                   </div>
+                            </div>
+                     </div>
+
+                     <div class="stats-card">
+                            <!-- We will directly populate cards here from the javaScript code-->
+                     </div>
+
+              </div>
+       </div>
+   
+       <script src="script.js"></script>
+</body>
+</html>
